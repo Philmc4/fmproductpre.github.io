@@ -1,0 +1,32 @@
+@media (max-width: 375px) {
+  .section {
+    height: 780px;
+    width: 350px;
+    flex-direction: column;
+  }
+  .main-product-image {
+    height: 342px;
+    width: 350px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 8px;
+  }
+  .product-info {
+    max-height: 214px;
+    max-width: 286px;
+  }
+  .main-content {
+    height: 428px;
+    width: 350px;
+  }
+  .main-product-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: initial;
+    height: 342px;
+    width: 350px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+}
